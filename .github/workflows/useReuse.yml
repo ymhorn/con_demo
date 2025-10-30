@@ -2,4 +2,6 @@ name: usereuse
 on: push
 jobs:
   use:
-    uses: ./reusable.yml
+    runs-on: ubuntu-latest
+    steps:
+      - uses: ./reusable.yml
