@@ -1,0 +1,8 @@
+name: reusable
+on: workflow_call
+jobs:
+  code:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Output
+        run: echo "reusable..."

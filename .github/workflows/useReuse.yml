@@ -1,0 +1,5 @@
+name: usereuse
+on: push
+jobs:
+  use:
+    uses: ./reusable.yml
