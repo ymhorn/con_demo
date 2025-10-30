@@ -1,7 +1,8 @@
 name: usereuse
 on: push
 jobs:
-  use:
+  usereuse:
     runs-on: ubuntu-latest
     steps:
-      - uses: ./.github/workflows/reusable.yml
+      - name: call code
+        uses: ./.github/workflows/reusable.yml
