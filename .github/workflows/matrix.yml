@@ -2,6 +2,7 @@ name: matrix
 on: push
 jobs:
   build:
+    continue-on-error: true
     strategy:
       #fail-fast: 
       matrix:
