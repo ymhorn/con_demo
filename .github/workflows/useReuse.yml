@@ -4,4 +4,4 @@ jobs:
   use:
     runs-on: ubuntu-latest
     steps:
-      - uses: .github/workflows/reusable.yml
+      - uses: ./github/workflows/reusable.yml
