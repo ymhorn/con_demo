@@ -4,5 +4,7 @@ jobs:
   usereuse:
     runs-on: ubuntu-latest
     steps:
+      - name: get code
+        uses: actions/checkout@v3
       - name: call code
         uses: ./.github/workflows/reusable.yml
